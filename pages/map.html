@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F8F7F3">
+  <title>Іван Франко — Мапа життя</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../lib/leaflet.css">
+  <link rel="stylesheet" href="../css/map.css">
+</head>
+<body class="map-page">
+  <header class="site-header">
+    <a class="wordmark" href="../index.html" aria-label="Іван Франко — на головну">Іван Франко</a>
+    <button class="menu-toggle" type="button" aria-label="Відкрити меню" aria-expanded="false" aria-controls="site-menu">
+      <span class="menu-toggle-label">МЕНЮ</span>
+      <span class="menu-icon" aria-hidden="true"><span></span><span></span></span>
+    </button>
+  </header>
+
+  <div class="menu-backdrop" hidden></div>
+  <aside class="menu-drawer" id="site-menu" role="dialog" aria-modal="true" aria-label="Навігаційне меню" aria-hidden="true" inert>
+    <div class="drawer-header">
+      <span class="drawer-title">Іван Франко</span>
+      <button class="menu-close" type="button" aria-label="Закрити меню"><span aria-hidden="true"></span></button>
+    </div>
+    <nav class="drawer-nav" aria-label="Основні сторінки">
+      <a href="../index.html"><span>01</span>Головна</a>
+      <a href="biography.html"><span>02</span>Біографія</a>
+      <a href="works.html"><span>03</span>Твори</a>
+      <a href="facts.html"><span>04</span>Цікаві факти</a>
+      <a href="quote.html"><span>05</span>Цитата дня</a>
+      <a href="chronology.html"><span>06</span>Хронологія</a>
+      <a href="map.html" aria-current="page"><span>07</span>Мапа</a>
+      <a
+         href="https://www.instagram.com/franko_in_lviv/"
+         target="_blank"
+         rel="noopener noreferrer"
+      ><span>08</span>Instagram</a>
+
+    </nav>
+    <div class="drawer-foot" aria-hidden="true"><span></span>НАВІГАЦІЯ</div>
+  </aside>
+
+  <main class="map-main">
+    <section class="map-intro" aria-labelledby="map-title">
+      <div>
+        <p class="map-kicker"><span></span>МІСЦЯ ТА СПОГАДИ</p>
+        <h1 id="map-title">Місцями життя <em>Івана Франка</em></h1>
+      </div>
+      <!-- Замініть текст вступу власним коротким поясненням до мапи. -->
+      <p class="map-intro-text">
+          Дослідіть місця, пов’язані з життям Івана Франка.
+          Обирайте позначки на інтерактивній мапі, щоб дізнатися
+          більше про його життєвий і творчий шлях.
+      </p>
+      </section>
+
+    <section class="map-experience" aria-label="Інтерактивна мапа та інформація про місця">
+      <div class="map-frame">
+        <div id="franko-map" class="leaflet-map" role="application" aria-label="Мапа місць, пов’язаних з Іваном Франком"></div>
+        <p class="map-note"><span aria-hidden="true"></span>ОБЕРІТЬ ПОЗНАЧКУ, ЩОБ ВІДКРИТИ МІСЦЕ</p>
+      </div>
+
+      <aside class="location-card" id="location-card" aria-live="polite" aria-label="Інформація про вибране місце">
+        <figure class="location-photo">
+          <img id="location-image" src="../images/ivan-franko-map-placeholder.svg" alt="Зображення вибраного місця">
+          <figcaption id="location-order" class="location-order">01 / 09</figcaption>
+        </figure>
+        <div class="location-copy">
+          <p class="location-kicker">ОБРАНЕ МІСЦЕ</p>
+          <h2 id="location-name">Оберіть позначку на мапі</h2>
+          <p id="location-address" class="location-address" hidden></p>
+          <p id="location-description" class="location-description">Тут з’явиться короткий опис вибраного місця.</p>
+          <button class="location-next" id="next-location" type="button" disabled>
+            <span>Дізнатися про інші місця</span>
+            <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M4.5 10h11M10 4.5l5.5 5.5-5.5 5.5"/></svg>
+          </button>
+        </div>
+      </aside>
+    </section>
+
+    <footer class="map-footer">
+      <a class="home-return" href="../index.html">На головну <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5.5 14.5 14.5 5.5M6.5 5.5h8v8"/></svg></a>
+      <span class="map-footer-note">ДЕВ’ЯТЬ МІСЦЬ <i>—</i> ОДНЕ ЖИТТЯ</span>
+    </footer>
+  </main>
+
+  <dialog class="map-lightbox" id="map-lightbox" aria-labelledby="map-lightbox-title" aria-describedby="map-lightbox-description">
+    <button class="map-lightbox-close" id="map-lightbox-close" type="button" aria-label="Закрити фотографію">
+      <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="m5 5 10 10M15 5 5 15"/></svg>
+    </button>
+    <img class="map-lightbox-image" id="map-lightbox-image" src="" alt="">
+    <div class="map-lightbox-caption">
+      <h2 id="map-lightbox-title"></h2>
+      <p id="map-lightbox-description"></p>
+    </div>
+  </dialog>
+
+
+    <script src="../js/main.js" defer></script>
+    <script src="../lib/leaflet.js" defer></script>
+    <script src="../js/map.js" defer></script>
+
+</body>
+</html>

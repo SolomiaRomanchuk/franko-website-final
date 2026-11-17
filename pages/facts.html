@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F8F7F3">
+  <title>Іван Франко — Цікаві факти</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/facts.css?v=20261116-1">
+</head>
+<body class="facts-page">
+  <header class="site-header">
+    <a class="wordmark" href="../index.html" aria-label="Іван Франко — на головну">Іван Франко</a>
+    <button class="menu-toggle" type="button" aria-label="Відкрити меню" aria-expanded="false" aria-controls="site-menu">
+      <span class="menu-toggle-label">МЕНЮ</span>
+      <span class="menu-icon" aria-hidden="true"><span></span><span></span></span>
+    </button>
+  </header>
+
+  <div class="menu-backdrop" hidden></div>
+  <aside class="menu-drawer" id="site-menu" role="dialog" aria-modal="true" aria-label="Навігаційне меню" aria-hidden="true" inert>
+    <div class="drawer-header">
+      <span class="drawer-title">Іван Франко</span>
+      <button class="menu-close" type="button" aria-label="Закрити меню"><span aria-hidden="true"></span></button>
+    </div>
+    <nav class="drawer-nav" aria-label="Основні сторінки">
+      <a href="../index.html"><span>01</span>Головна</a>
+      <a href="biography.html"><span>02</span>Біографія</a>
+      <a href="works.html"><span>03</span>Твори</a>
+      <a href="facts.html" aria-current="page"><span>04</span>Цікаві факти</a>
+      <a href="quote.html"><span>05</span>Цитата дня</a>
+      <a href="timeline.html"><span>06</span>Хронологія</a>
+      <a href="map.html"><span>07</span>Карта</a>
+      <a
+         href="https://www.instagram.com/franko_in_lviv/"
+         target="_blank"
+         rel="noopener noreferrer"
+      ><span>08</span>Instagram</a>
+
+    </nav>
+    <div class="drawer-foot" aria-hidden="true"><span></span>НАВІГАЦІЯ</div>
+  </aside>
+
+  <main class="facts-main">
+    <section class="facts-hero" aria-labelledby="facts-title">
+      <div class="facts-hero-copy">
+        <p class="facts-kicker"><span></span>ЦІКАВІ ФАКТИ</p>
+        <h1 id="facts-title">ДІЗНАЙТЕСЬ<br><span>ФАКТИ, ЯКІ</span><br>ВАС ЗДИВУЮТЬ</h1>
+        <p class="facts-subtitle">50 фактів. Наскільки добре ви знаєте Івана Франка?</p>
+      </div>
+      <div class="facts-hero-art">
+        <svg class="facts-orbit" viewBox="0 0 580 470" fill="none" aria-hidden="true">
+          <path d="M49 299C114 108 327 49 493 155c72 46 80 130 26 190-68 77-212 62-282 5-71-57-70-141-15-192 59-54 164-41 204 15" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M110 358c71-30 136-24 205 1 66 23 133 27 199-4" stroke="currentColor" stroke-width="1"/>
+          <circle cx="454" cy="108" r="15" fill="currentColor"/>
+          <circle cx="87" cy="185" r="7" fill="currentColor"/>
+          <path d="M278 108c-20 65-25 148-5 239m-45-219c40 50 74 109 97 173m-115-68c42-22 83-37 127-42" stroke="currentColor" stroke-width="1" opacity=".55"/>
+        </svg>
+        <figure class="facts-hero-photo">
+          <!-- Замініть src на власне фото за шляхом ../images/facts/ivan-franko-facts.jpg та оновіть alt. -->
+          <img src="../images/facts/ivan-franko-facts.jpeg" alt="Франко факти ">
+        </figure>
+        <div class="facts-art-note"><span>?</span><i></i><span>!</span></div>
+        <span class="facts-art-index">50 <small>ФАКТІВ</small></span>
+      </div>
+      <span class="facts-hero-caption" aria-hidden="true">ЗНАЙОМЕ МОЖЕ ЗДИВУВАТИ</span>
+    </section>
+
+    <section class="fact-feature" aria-labelledby="fact-card-title">
+      <div class="fact-feature-heading">
+        <p class="facts-kicker"><span></span>МАЛЕНЬКЕ ВІДКРИТТЯ</p>
+        <h2 id="fact-card-title">Один факт —<br>новий погляд.</h2>
+      </div>
+
+      <div class="fact-card-wrap">
+        <div class="fact-card fact-tone-olive" id="fact-card" aria-live="polite" aria-atomic="true">
+          <div class="fact-card-top">
+            <span class="fact-card-label">ВАША НАСТУПНА ЗУПИНКА</span>
+            <span class="fact-card-number" aria-hidden="true">—</span>
+          </div>
+          <div class="fact-card-content">
+            <div class="fact-intro-state">
+              <span class="fact-decorative-mark" aria-hidden="true">«</span>
+              <p>Коротка несподіванка може відкрити новий ракурс.</p>
+              <span class="fact-intro-hint">НАТИСНІТЬ І ДІЗНАЙТЕСЯ</span>
+            </div>
+            <p class="fact-result" hidden></p>
+            <div class="fact-complete" hidden>
+              <p>Ви дізналися всі факти! Але історія Івана Франка завжди приховує щось нове.</p>
+            </div>
+          </div>
+          <div class="fact-card-bottom"><span class="fact-card-rule"></span><span class="fact-card-count">50 КОРОТКИХ ВІДКРИТТІВ</span></div>
+          <svg class="fact-card-ornament" viewBox="0 0 180 180" aria-hidden="true"><path d="M13 153c44-15 68-46 77-96 20 39 44 56 77 66-35 2-59 17-77 45-11-23-34-28-77-15Z" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M90 57v111m0-72-30-24m30 46 35-26m-35 44-27-2m27-23 36-2" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+        </div>
+        <div class="fact-actions">
+          <button class="fact-action-button" id="fact-action" type="button">
+            <span class="fact-action-label">Здивуй мене</span>
+            <span class="fact-action-arrow" aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5.5 14.5 14.5 5.5M6.5 5.5h8v8"/></svg></span>
+          </button>
+          <p class="fact-progress-text" id="fact-progress-text">ЗАЛИШИЛОСЯ ВІДКРИТТІВ: <span>50</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="facts-footer"><a class="home-return" href="../index.html">На головну <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5.5 14.5 14.5 5.5M6.5 5.5h8v8"/></svg></a></footer>
+  <script src="../js/main.js" defer></script>
+  <script src="../js/facts.js?v=20261116-1" defer></script>
+</body>
+</html>

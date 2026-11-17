@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-labelledby="title desc">
+  <title id="title">Місце для фотографії події</title>
+  <desc id="desc">Вертикальна декоративна заглушка, яку слід замінити власною фотографією.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8EADF"/>
+      <stop offset="1" stop-color="#DCE5EF"/>
+    </linearGradient>
+    <linearGradient id="veil" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#E9DDCB" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#F8F7F3" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#paper)"/>
+  <path d="M0 550C145 485 236 588 360 525S515 450 600 478V800H0Z" fill="url(#veil)"/>
+  <ellipse cx="310" cy="335" rx="175" ry="210" fill="none" stroke="#737D63" stroke-opacity=".27" stroke-width="2"/>
+  <ellipse cx="310" cy="335" rx="137" ry="183" fill="none" stroke="#253D58" stroke-opacity=".18" stroke-width="1.5" transform="rotate(24 310 335)"/>
+  <circle cx="430" cy="220" r="12" fill="#E9DDCB"/>
+  <path d="M210 630h180" stroke="#737D63" stroke-opacity=".55" stroke-width="2"/>
+  <text x="300" y="675" fill="#253D58" fill-opacity=".8" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="3" text-anchor="middle">ДОДАЙТЕ ФОТО</text>
+  <text x="300" y="709" fill="#253D58" fill-opacity=".55" font-family="Arial, sans-serif" font-size="12" letter-spacing="2" text-anchor="middle">ВЕРТИКАЛЬНИЙ ФОРМАТ</text>
+</svg>

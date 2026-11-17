@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 960" role="img" aria-labelledby="title desc">
+  <title id="title">Тимчасове місце для портрета</title>
+  <desc id="desc">Локальна графічна заглушка. Замініть її власною фотографією.</desc>
+  <rect width="760" height="960" fill="#DDE2D3"/>
+  <path d="M75 0h610c-58 88-78 184-43 282 27 77 23 148-20 216-31 49-34 117 9 196 34 62 57 152 28 266H78c39-124 24-203-16-283-39-79-46-156-12-235 33-76 38-149 11-222C34 132 43 66 75 0Z" fill="#737D63" opacity=".22"/>
+  <circle cx="380" cy="344" r="142" fill="#737D63" opacity=".68"/>
+  <path d="M138 874c18-200 103-318 242-318s224 118 242 318" fill="#737D63" opacity=".86"/>
+  <rect x="24" y="24" width="712" height="912" rx="34" fill="none" stroke="#171916" stroke-opacity=".18"/>
+  <text x="380" y="914" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#171916" fill-opacity=".72">МІСЦЕ ДЛЯ ВАШОГО ПОРТРЕТА</text>
+</svg>

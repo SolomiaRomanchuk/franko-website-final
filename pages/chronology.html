@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F8F7F3">
+  <title>Іван Франко — Хронологія</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/chronology.css">
+</head>
+<body class="chronology-page">
+  <header class="site-header">
+    <a class="wordmark" href="../index.html" aria-label="Іван Франко — на головну">Іван Франко</a>
+    <button class="menu-toggle" type="button" aria-label="Відкрити меню" aria-expanded="false" aria-controls="site-menu">
+      <span class="menu-toggle-label">МЕНЮ</span>
+      <span class="menu-icon" aria-hidden="true"><span></span><span></span></span>
+    </button>
+  </header>
+
+  <div class="menu-backdrop" hidden></div>
+  <aside class="menu-drawer" id="site-menu" role="dialog" aria-modal="true" aria-label="Навігаційне меню" aria-hidden="true" inert>
+    <div class="drawer-header">
+      <span class="drawer-title">Іван Франко</span>
+      <button class="menu-close" type="button" aria-label="Закрити меню"><span aria-hidden="true"></span></button>
+    </div>
+    <nav class="drawer-nav" aria-label="Основні сторінки">
+      <a href="../index.html"><span>01</span>Головна</a>
+      <a href="biography.html"><span>02</span>Біографія</a>
+      <a href="works.html"><span>03</span>Твори</a>
+      <a href="facts.html"><span>04</span>Цікаві факти</a>
+      <a href="quote.html"><span>05</span>Цитата дня</a>
+      <a href="chronology.html" aria-current="page"><span>06</span>Хронологія</a>
+      <a href="map.html"><span>07</span>Мапа</a>
+      <a
+         href="https://www.instagram.com/franko_in_lviv/"
+         target="_blank"
+         rel="noopener noreferrer"
+      ><span>08</span>Instagram</a>
+
+    </nav>
+    <div class="drawer-foot" aria-hidden="true"><span></span>НАВІГАЦІЯ</div>
+  </aside>
+
+  <main class="chronology-main">
+    <section class="chronology-intro" aria-labelledby="chronology-title">
+      <div class="chronology-intro-copy">
+        <p class="chronology-kicker"><span></span>ЧАС І ПОДІЇ</p>
+        <h1 id="chronology-title">Хронологія життя <em>Івана Франка</em></h1>
+        <p class="chronology-subtitle">Від народження до останніх років життя.</p>
+      </div>
+      <div class="intro-ornament" aria-hidden="true">
+        <span class="intro-orbit intro-orbit-one"></span>
+        <span class="intro-orbit intro-orbit-two"></span>
+        <span class="intro-dot"></span>
+        <span class="intro-year">1856 <i>—</i> 1916</span>
+      </div>
+    </section>
+
+    <section class="timeline-exhibition" aria-label="Горизонтальна галерея подій">
+      <div class="timeline-toolbar">
+        <p class="timeline-note">ПРОКРУТІТЬ, ЩОБ ПЕРЕГЛЯНУТИ <span aria-hidden="true">·</span> 25 ПОДІЙ</p>
+      </div>
+
+      <div class="gallery-browse" aria-label="Керування галереєю подій">
+        <button class="timeline-arrow gallery-arrow" type="button" data-timeline-prev aria-label="Попередні події" disabled>
+          <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M15.5 10H4.5M10 4.5 4.5 10 10 15.5"/></svg>
+        </button>
+        <div class="timeline-scroller" id="timeline-scroller" tabindex="0" aria-label="Горизонтальна галерея подій. Прокручуйте вбік.">
+          <!-- Події та шляхи до фотографій створюються зі списку у js/chronology.js. -->
+          <ol class="timeline-events" id="timeline-events" aria-label="Події життя Івана Франка"></ol>
+        </div>
+        <button class="timeline-arrow gallery-arrow" type="button" data-timeline-next aria-label="Наступні події">
+          <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M4.5 10h11M10 4.5l5.5 5.5-5.5 5.5"/></svg>
+        </button>
+      </div>
+      <p class="timeline-hint">На телефоні гортайте стрічку пальцем</p>
+    </section>
+
+    <section class="lifetime-overview" aria-label="Тривалість життя Івана Франка">
+      <div class="overview-track">
+        <span class="overview-line" aria-hidden="true"></span>
+        <span class="overview-tick overview-tick-one" aria-hidden="true"></span>
+        <span class="overview-tick overview-tick-two" aria-hidden="true"></span>
+        <span class="overview-tick overview-tick-three" aria-hidden="true"></span>
+        <span class="overview-tick overview-tick-four" aria-hidden="true"></span>
+        <div class="overview-endpoint overview-birth"><strong>1856</strong><span>Birth</span></div>
+        <div class="overview-endpoint overview-death"><strong>1916</strong><span>Death</span></div>
+      </div>
+    </section>
+
+  <footer class="chronology-footer">
+    <a class="home-return" href="../index.html">На головну <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5.5 14.5 14.5 5.5M6.5 5.5h8v8"/></svg></a>
+    <span class="footer-note">1856 <i>—</i> 1916</span>
+  </footer>
+  </main>
+
+  <div class="timeline-lightbox" id="timeline-lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" aria-describedby="lightbox-description" aria-hidden="true" hidden>
+    <button class="lightbox-close" type="button" aria-label="Закрити перегляд фотографії">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 6 12 12M18 6 6 18"/></svg>
+    </button>
+    <div class="lightbox-stage" tabindex="-1">
+      <img class="lightbox-image" src="" alt="">
+    </div>
+    <div class="lightbox-caption">
+      <p class="lightbox-year"></p>
+      <h2 id="lightbox-title"></h2>
+      <p id="lightbox-description"></p>
+    </div>
+  </div>
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/chronology.js" defer></script>
+</body>
+</html>

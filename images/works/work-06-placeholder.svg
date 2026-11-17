@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+<title id="title">ФОТО ДО ТВОРУ 06 — тимчасове місце</title>
+<desc id="desc">Декоративна кольорова заглушка. Замініть цей файл власною фотографією.</desc>
+<rect width="900" height="1100" fill="#E8EADF"/>
+<path d="M0 755C170 665 260 790 430 710s288-160 470-78v468H0Z" fill="#737D63" opacity=".12"/>
+<path d="M98 252c122-122 267-149 405-92 117 48 210 35 302-35" fill="none" stroke="#737D63" stroke-width="2" opacity=".35"/>
+<circle cx="690" cy="350" r="116" fill="none" stroke="#737D63" stroke-width="1.5" opacity=".2"/>
+<path d="M180 548h540M180 567h354" stroke="#737D63" stroke-width="2" opacity=".28"/>
+<text x="180" y="505" fill="#737D63" font-family="Arial,sans-serif" font-size="23" letter-spacing="5" opacity=".72">ФОТО ДО ТВОРУ 06</text>
+<text x="180" y="625" fill="#737D63" font-family="Arial,sans-serif" font-size="16" letter-spacing="3" opacity=".62">ЗАМІНІТЬ ВЛАСНОЮ ФОТОГРАФІЄЮ</text>
+<text x="180" y="1022" fill="#737D63" font-family="Arial,sans-serif" font-size="14" letter-spacing="4" opacity=".55">IMAGE PLACEHOLDER</text>
+</svg>

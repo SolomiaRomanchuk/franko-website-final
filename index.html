@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FAFAF8">
+  <title>Іван Франко</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home-page">
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="Іван Франко — на головну">Іван Франко</a>
+    <button class="menu-toggle" type="button" aria-label="Відкрити меню" aria-expanded="false" aria-controls="site-menu">
+      <span class="menu-toggle-label">МЕНЮ</span>
+      <span class="menu-icon" aria-hidden="true"><span></span><span></span></span>
+    </button>
+  </header>
+
+  <div class="menu-backdrop" hidden></div>
+  <aside class="menu-drawer" id="site-menu" role="dialog" aria-modal="true" aria-label="Навігаційне меню" aria-hidden="true" inert>
+    <div class="drawer-header">
+      <span class="drawer-title">Іван Франко</span>
+      <button class="menu-close" type="button" aria-label="Закрити меню"><span aria-hidden="true"></span></button>
+    </div>
+    <nav class="drawer-nav" aria-label="Основні сторінки">
+      <a href="index.html"><span>01</span>Головна</a>
+      <a href="pages/biography.html"><span>02</span>Біографія</a>
+      <a href="pages/works.html"><span>03</span>Твори</a>
+      <a href="pages/facts.html"><span>04</span>Цікаві факти</a>
+      <a href="pages/quote.html"><span>05</span>Цитата дня</a>
+      <a href="pages/timeline.html"><span>06</span>Хронологія</a>
+      <a href="pages/map.html"><span>07</span>Мапа</a>
+      <a
+         href="https://www.instagram.com/franko_in_lviv/"
+         target="_blank"
+         rel="noopener noreferrer"
+      ><span>08</span>Instagram</a>
+
+    </nav>
+    <div class="drawer-foot" aria-hidden="true"><span></span>НАВІГАЦІЯ</div>
+  </aside>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span>ІВАН ФРАНКО</p>
+        <h1 id="hero-title">ІВАН ФРАНКО,<br><span>ЯКОГО ВИ</span><br>НЕ ЗНАЛИ</h1>
+        <a class="story-link" href="pages/biography.html"><span>Відкрити історію</span><span class="arrow" aria-hidden="true">
+          <svg viewBox="0 0 20 20" focusable="false"><path d="M5.5 14.5 14.5 5.5M6.5 5.5h8v8"/></svg>
+        </span></a>
+        <span class="copy-mark" aria-hidden="true">І. Ф.</span>
+      </div>
+
+      <figure class="hero-portrait">
+        <!-- Замініть src на власне локальне фото з папки images/ та оновіть alt. -->
+        <img src="images/Франко головна сторінка.jpeg" alt="Іван Франко">
+        
+      </figure>
+      <span class="hero-side-note" aria-hidden="true">ЛІТЕРАТУРА · КУЛЬТУРА · ІСТОРІЯ</span>
+      <div class="hero-bottom" aria-hidden="true"><span>ДОСЛІДІТЬ ІСТОРІЮ</span><span class="scroll-line"></span></div>
+    </section>
+  </main>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

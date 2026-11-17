@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F8F7F3">
+  <title>Іван Франко — Твори</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/works.css">
+</head>
+<body class="works-page">
+  <header class="site-header">
+    <a class="wordmark" href="../index.html" aria-label="Іван Франко — на головну">Іван Франко</a>
+    <button class="menu-toggle" type="button" aria-label="Відкрити меню" aria-expanded="false" aria-controls="site-menu">
+      <span class="menu-toggle-label">МЕНЮ</span>
+      <span class="menu-icon" aria-hidden="true"><span></span><span></span></span>
+    </button>
+  </header>
+
+  <div class="menu-backdrop" hidden></div>
+  <aside class="menu-drawer" id="site-menu" role="dialog" aria-modal="true" aria-label="Навігаційне меню" aria-hidden="true" inert>
+    <div class="drawer-header">
+      <span class="drawer-title">Іван Франко</span>
+      <button class="menu-close" type="button" aria-label="Закрити меню"><span aria-hidden="true"></span></button>
+    </div>
+    <nav class="drawer-nav" aria-label="Основні сторінки">
+      <a href="../index.html"><span>01</span>Головна</a>
+      <a href="biography.html"><span>02</span>Біографія</a>
+      <a href="works.html" aria-current="page"><span>03</span>Твори</a>
+      <a href="facts.html"><span>04</span>Цікаві факти</a>
+      <a href="quote.html"><span>05</span>Цитата дня</a>
+      <a href="timeline.html"><span>06</span>Хронологія</a>
+      <a href="map.html"><span>07</span>Карта</a>
+      <a
+         href="https://www.instagram.com/franko_in_lviv/"
+         target="_blank"
+         rel="noopener noreferrer"
+      ><span>08</span>Instagram</a>
+
+    </nav>
+    <div class="drawer-foot" aria-hidden="true"><span></span>НАВІГАЦІЯ</div>
+  </aside>
+
+  <div class="works-progress" role="progressbar" aria-label="Перегляд творів" aria-valuemin="1" aria-valuemax="10" aria-valuenow="1"><span></span></div>
+
+  <main class="works-main">
+    <section class="works-hero" aria-labelledby="works-title">
+      <div class="works-hero-copy">
+        <p class="works-kicker"><span></span>ТВОРИ</p>
+        <h1 id="works-title">ТВОРИ,<br><span>ЯКІ ВАРТО</span><br>ПРОЧИТАТИ</h1>
+        <!-- ВСТАВТЕ ВЛАСНИЙ КОРОТКИЙ ВСТУПНИЙ ТЕКСТ У ЦЕЙ БЛОК. -->
+        <div class="works-intro-slot"></div>
+        <a class="works-cta" href="#work-01">Переглянути твори <span aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5.5 14.5 14.5 5.5M6.5 5.5h8v8"/></svg></span></a>
+      </div>
+      <figure class="works-hero-image">
+        <!-- Замініть src на власне локальне фото й оновіть alt. -->
+        <button class="work-photo-trigger" type="button" aria-label="Відкрити вступне фото у збільшеному вигляді"><img src="../images/твори/0.jpg?v=20261117-024132" alt="Місце для власної вступної фотографії — замініть опис"></button>
+      </figure>
+      <span class="works-hero-mark" aria-hidden="true">ТВОРИ</span>
+      <span class="works-hero-index" aria-hidden="true">01 — 10</span>
+    </section>
+
+    <div class="works-list" aria-label="Список творів">
+      <section class="work-section work-odd work-tone-olive works-reveal" id="work-01" data-work-number="1" aria-labelledby="work-title-01">
+        <div class="work-copy"><p class="work-number">01 <span>/ 10</span></p><h2 id="work-title-01">Твір 1</h2><!-- ЗАМІНІТЬ «Твір 1» НА ВЛАСНУ НАЗВУ. --><!-- ДОДАЙТЕ КОРОТКИЙ ОПИС ТВОРУ В ЦЕЙ БЛОК. --><div class="work-description"></div></div>
+        <figure class="work-image work-image-tall"><button class="work-photo-trigger" type="button" aria-label="Відкрити фотографію до твору 1 у збільшеному вигляді"><img src="../images/твори/1.jpg" alt="Місце для власного фото до твору 1 — замініть опис"></button><figcaption aria-hidden="true">01</figcaption></figure>
+      </section>
+
+      <section class="work-section work-even work-tone-blue works-reveal" id="work-02" data-work-number="2" aria-labelledby="work-title-02">
+        <figure class="work-image work-image-wide"><button class="work-photo-trigger" type="button" aria-label="Відкрити фотографію до твору 2 у збільшеному вигляді"><img src="../images/твори/2.jpg" alt="Місце для власного фото до твору 2 — замініть опис"></button><figcaption aria-hidden="true">02</figcaption></figure>
+        <div class="work-copy"><p class="work-number">02 <span>/ 10</span></p><h2 id="work-title-02">Твір 2</h2><!-- ЗАМІНІТЬ «Твір 2» НА ВЛАСНУ НАЗВУ. --><!-- ДОДАЙТЕ КОРОТКИЙ ОПИС ТВОРУ В ЦЕЙ БЛОК. --><div class="work-description"></div></div>
+      </section>
+
+      <section class="work-section work-odd work-tone-beige works-reveal" id="work-03" data-work-number="3" aria-labelledby="work-title-03">
+        <div class="work-copy"><p class="work-number">03 <span>/ 10</span></p><h2 id="work-title-03">Твір 3</h2><!-- ЗАМІНІТЬ «Твір 3» НА ВЛАСНУ НАЗВУ. --><!-- ДОДАЙТЕ КОРОТКИЙ ОПИС ТВОРУ В ЦЕЙ БЛОК. --><div class="work-description"></div></div>
+        <figure class="work-image work-image-square"><button class="work-photo-trigger" type="button" aria-label="Відкрити фотографію до твору 3 у збільшеному вигляді"><img src="../images/твори/3.jpg" alt="Місце для власного фото до твору 3 — замініть опис"></button><figcaption aria-hidden="true">03</figcaption></figure>
+      </section>
+
+      <section class="work-section work-even work-tone-paper works-reveal" id="work-04" data-work-number="4" aria-labelledby="work-title-04">
+        <figure class="work-image work-image-tall work-image-offset"><button class="work-photo-trigger" type="button" aria-label="Відкрити фотографію до твору 4 у збільшеному вигляді"><img src="../images/твори/4.jpg" alt="Місце для власного фото до твору 4 — замініть опис"></button><figcaption aria-hidden="true">04</figcaption></figure>
+        <div class="work-copy"><p class="work-number">04 <span>/ 10</span></p><h2 id="work-title-04">Твір 4</h2><!-- ЗАМІНІТЬ «Твір 4» НА ВЛАСНУ НАЗВУ. --><!-- ДОДАЙТЕ КОРОТКИЙ ОПИС ТВОРУ В ЦЕЙ БЛОК. --><div class="work-description"></div></div>
+      </section>
+
+      <section class="work-section work-odd work-tone-blue works-reveal" id="work-05" data-work-number="5" aria-labelledby="work-title-05">
+        <div class="work-copy"><p class="work-number">05 <span>/ 10</span></p><h2 id="work-title-05">Твір 5</h2><!-- ЗАМІНІТЬ «Твір 5» НА ВЛАСНУ НАЗВУ. --><!-- ДОДАЙТЕ КОРОТКИЙ ОПИС ТВОРУ В ЦЕЙ БЛОК. --><div class="work-description"></div></div>
+        <figure class="work-image work-image-wide"><button class="work-photo-trigger" type="button" aria-label="Відкрити фотографію до твору 5 у збільшеному вигляді"><img src="../images/твори/5.jpg" alt="Місце для власного фото до твору 5 — замініть опис"></button><figcaption aria-hidden="true">05</figcaption></figure>
+      </section>
+
+      <section class="work-section work-even work-tone-olive works-reveal" id="work-06" data-work-number="6" aria-labelledby="work-title-06">
+        <figure class="work-image work-image-square work-image-offset"><button class="work-photo-trigger" type="button" aria-label="Відкрити фотографію до твору 6 у збільшеному вигляді"><img src="../images/твори/6.jpg" alt="Місце для власного фото до твору 6 — замініть опис"></button><figcaption aria-hidden="true">06</figcaption></figure>
+        <div class="work-copy"><p class="work-number">06 <span>/ 10</span></p><h2 id="work-title-06">Твір 6</h2><!-- ЗАМІНІТЬ «Твір 6» НА ВЛАСНУ НАЗВУ. --><!-- ДОДАЙТЕ КОРОТКИЙ ОПИС ТВОРУ В ЦЕЙ БЛОК. --><div class="work-description"></div></div>
+      </section>
+
+      <section class="work-section work-odd work-tone-paper works-reveal" id="work-07" data-work-number="7" aria-labelledby="work-title-07">
+        <div class="work-copy"><p class="work-number">07 <span>/ 10</span></p><h2 id="work-title-07">Твір 7</h2><!-- ЗАМІНІТЬ «Твір 7» НА ВЛАСНУ НАЗВУ. --><!-- ДОДАЙТЕ КОРОТКИЙ ОПИС ТВОРУ В ЦЕЙ БЛОК. --><div class="work-description"></div></div>
+        <figure class="work-image work-image-tall"><button class="work-photo-trigger" type="button" aria-label="Відкрити фотографію до твору 7 у збільшеному вигляді"><img src="../images/твори/7.jpg" alt="Місце для власного фото до твору 7 — замініть опис"></button><figcaption aria-hidden="true">07</figcaption></figure>
+      </section>
+
+      <section class="work-section work-even work-tone-beige works-reveal" id="work-08" data-work-number="8" aria-labelledby="work-title-08">
+        <figure class="work-image work-image-wide"><button class="work-photo-trigger" type="button" aria-label="Відкрити фотографію до твору 8 у збільшеному вигляді"><img src="../images/твори/8.jpg" alt="Місце для власного фото до твору 8 — замініть опис"></button><figcaption aria-hidden="true">08</figcaption></figure>
+        <div class="work-copy"><p class="work-number">08 <span>/ 10</span></p><h2 id="work-title-08">Твір 8</h2><!-- ЗАМІНІТЬ «Твір 8» НА ВЛАСНУ НАЗВУ. --><!-- ДОДАЙТЕ КОРОТКИЙ ОПИС ТВОРУ В ЦЕЙ БЛОК. --><div class="work-description"></div></div>
+      </section>
+
+      <section class="work-section work-odd work-tone-olive works-reveal" id="work-09" data-work-number="9" aria-labelledby="work-title-09">
+        <div class="work-copy"><p class="work-number">09 <span>/ 10</span></p><h2 id="work-title-09">Твір 9</h2><!-- ЗАМІНІТЬ «Твір 9» НА ВЛАСНУ НАЗВУ. --><!-- ДОДАЙТЕ КОРОТКИЙ ОПИС ТВОРУ В ЦЕЙ БЛОК. --><div class="work-description"></div></div>
+        <figure class="work-image work-image-square"><button class="work-photo-trigger" type="button" aria-label="Відкрити фотографію до твору 9 у збільшеному вигляді"><img src="../images/твори/9.jpg" alt="Місце для власного фото до твору 9 — замініть опис"></button><figcaption aria-hidden="true">09</figcaption></figure>
+      </section>
+
+      <section class="work-section work-even work-tone-blue works-reveal" id="work-10" data-work-number="10" aria-labelledby="work-title-10">
+        <figure class="work-image work-image-tall work-image-offset"><button class="work-photo-trigger" type="button" aria-label="Відкрити фотографію до твору 10 у збільшеному вигляді"><img src="../images/твори/10.jpg" alt="Місце для власного фото до твору 10 — замініть опис"></button><figcaption aria-hidden="true">10</figcaption></figure>
+        <div class="work-copy"><p class="work-number">10 <span>/ 10</span></p><h2 id="work-title-10">Твір 10</h2><!-- ЗАМІНІТЬ «Твір 10» НА ВЛАСНУ НАЗВУ. --><!-- ДОДАЙТЕ КОРОТКИЙ ОПИС ТВОРУ В ЦЕЙ БЛОК. --><div class="work-description"></div></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="works-footer"><a class="home-return" href="../index.html">На головну <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5.5 14.5 14.5 5.5M6.5 5.5h8v8"/></svg></a></footer>
+
+  <dialog class="works-lightbox" aria-label="Збільшене фото">
+    <button class="works-lightbox-close" type="button" aria-label="Закрити фотографію">×</button>
+    <img src="" alt="">
+  </dialog>
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/works.js" defer></script>
+</body>
+</html>

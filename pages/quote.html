@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F8F7F3">
+  <title>Іван Франко — Цитата дня</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/quote.css">
+</head>
+<body class="quote-page">
+  <header class="site-header">
+    <a class="wordmark" href="../index.html" aria-label="Іван Франко — на головну">Іван Франко</a>
+    <button class="menu-toggle" type="button" aria-label="Відкрити меню" aria-expanded="false" aria-controls="site-menu">
+      <span class="menu-toggle-label">МЕНЮ</span>
+      <span class="menu-icon" aria-hidden="true"><span></span><span></span></span>
+    </button>
+  </header>
+
+  <div class="menu-backdrop" hidden></div>
+  <aside class="menu-drawer" id="site-menu" role="dialog" aria-modal="true" aria-label="Навігаційне меню" aria-hidden="true" inert>
+    <div class="drawer-header">
+      <span class="drawer-title">Іван Франко</span>
+      <button class="menu-close" type="button" aria-label="Закрити меню"><span aria-hidden="true"></span></button>
+    </div>
+    <nav class="drawer-nav" aria-label="Основні сторінки">
+      <a href="../index.html"><span>01</span>Головна</a>
+      <a href="biography.html"><span>02</span>Біографія</a>
+      <a href="works.html"><span>03</span>Твори</a>
+      <a href="facts.html"><span>04</span>Цікаві факти</a>
+      <a href="quote.html" aria-current="page"><span>05</span>Цитата дня</a>
+      <a href="timeline.html"><span>06</span>Хронологія</a>
+      <a href="map.html"><span>07</span>Мапа</a>
+      <a
+         href="https://www.instagram.com/franko_in_lviv/"
+         target="_blank"
+         rel="noopener noreferrer"
+      ><span>08</span>Instagram</a>
+
+    </nav>
+    <div class="drawer-foot" aria-hidden="true"><span></span>НАВІГАЦІЯ</div>
+  </aside>
+
+  <main class="quote-main">
+    <section class="quote-intro" aria-labelledby="quote-page-title">
+      <h1 id="quote-page-title">Цитата дня</h1>
+    </section>
+
+    <section class="quote-layout" aria-label="Цитата Івана Франка" aria-live="polite" aria-atomic="false">
+      <span class="quote-rings" aria-hidden="true"></span>
+      <span class="quote-outline-mark" aria-hidden="true">“</span>
+      <span class="quote-page-curves" aria-hidden="true"></span>
+      <div class="quote-copy">
+        <div class="quote-display" id="quote-display">
+          <span class="quote-mark quote-mark-open" aria-hidden="true">“</span>
+          <blockquote class="quote-text" id="quote-text">Завантажуємо цитати…</blockquote>
+          <span class="quote-rule" aria-hidden="true"></span>
+          <p class="quote-source" id="quote-source"></p>
+        </div>
+        <div class="quote-actions">
+          <button class="story-link quote-next" id="next-quote" type="button" disabled>
+            <span>Інша цитата</span>
+            <span class="arrow" aria-hidden="true"><svg viewBox="0 0 20 20" focusable="false"><path d="M5.5 14.5 14.5 5.5M6.5 5.5h8v8"/></svg></span>
+          </button>
+          <span class="quote-counter" id="quote-counter" aria-label="Номер цитати"></span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="quote-footer">
+    <a class="home-return" href="../index.html">На головну <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M5.5 14.5 14.5 5.5M6.5 5.5h8v8"/></svg></a>
+  </footer>
+
+  <script src="../js/main.js" defer></script>
+  <script src="../js/quote.js" defer></script>
+</body>
+</html>

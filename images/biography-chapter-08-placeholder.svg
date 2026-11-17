@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Місце для фотографії</title>
+  <desc id="desc">Тимчасове місце для власної фотографії. Замініть цим файлом власне фото.</desc>
+  <rect width="900" height="650" fill="#DCE5EF"/>
+  <path d="M0 468c148-84 268-51 386 2s244 67 514-52v232H0Z" fill="#737D63" opacity=".12"/>
+  <circle cx="760" cy="105" r="58" fill="#253D58" opacity=".08"/>
+  <rect x="22" y="22" width="856" height="606" rx="34" fill="none" stroke="#171916" stroke-opacity=".16" stroke-width="2"/>
+  <text x="450" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="5" fill="#253D58" fill-opacity=".72">МІСЦЕ ДЛЯ ФОТО</text>
+  <text x="450" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="3" fill="#171916" fill-opacity=".58">РОЗДІЛ 08</text>
+</svg>
